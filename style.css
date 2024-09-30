@@ -1,0 +1,62 @@
+.watch {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.hour {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.hour-3 {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.hour-6 {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.hour-9 {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.hour-12 {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.arrow {
+  position: absolute;
+  height: 5px;
+  background-color: black;
+}
+
+.hour-arrow {
+  width: 75px;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+}
+
+.minute-arrow {
+  width: 100px;
+  transform: rotate(90deg) translateX(-50%);
+  transform-origin: left;
+  left: 50%;
+  top: 35%;
+}
